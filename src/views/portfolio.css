@@ -1,0 +1,189 @@
+.portfolio-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.portfolio-navbar-interactive {
+  background-color: #0b9fe4;
+}
+.portfolio-logo {
+  font-size: 2em;
+  font-family: "Verdana";
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.portfolio-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.portfolio-links {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.portfolio-nav12 {
+  transition: 0.3s;
+  text-decoration: none;
+}
+.portfolio-nav2 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.portfolio-nav3 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.portfolio-nav4 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.portfolio-nav5 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.portfolio-buttons {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.portfolio-burger-menu {
+  display: none;
+}
+.portfolio-icon {
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.portfolio-mobile-menu1 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  transform: translateX(-100%);
+  transition: 0.5s;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.portfolio-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.portfolio-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.portfolio-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio-icon02 {
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.portfolio-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.portfolio-nav1 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.portfolio-nav21 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.portfolio-nav31 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.portfolio-nav41 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.portfolio-nav51 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.portfolio-buttons1 {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.portfolio-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.portfolio-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.portfolio-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+@media(max-width: 767px) {
+  .portfolio-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .portfolio-desktop-menu {
+    display: none;
+  }
+  .portfolio-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .portfolio-nav1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .portfolio-nav21 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .portfolio-nav31 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .portfolio-nav41 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .portfolio-nav51 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .portfolio-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .portfolio-mobile-menu1 {
+    padding: 16px;
+  }
+}
